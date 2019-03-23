@@ -190,3 +190,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+node_modules/
+*.js.map
+.env
