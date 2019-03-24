@@ -1,0 +1,63 @@
+{
+    "name": "hubrid",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "eff7723b-53d9-4c7e-ba01-20e133873dd1",
+            "subscriptionId": "b540ee1c-1250-4349-b5f2-be0c5daf8e43",
+            "resourceGroup": "chatbot-demo",
+            "serviceName": "hubrid",
+            "name": "hubrid",
+            "id": "1",
+            "appId": "007dcb0e-9fab-47b0-aa51-99f8ac36cc6f"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=hubridaa4b;AccountKey=XrYBzuALpMx1CfaSxvh5JG/gPfe4LAbEnALZ9HhE/RENxWgjcqBr6apC8VlGbbZOYksgRFzcZsrrrW989pjUBg==;",
+            "tenantId": "eff7723b-53d9-4c7e-ba01-20e133873dd1",
+            "subscriptionId": "b540ee1c-1250-4349-b5f2-be0c5daf8e43",
+            "resourceGroup": "chatbot-demo",
+            "serviceName": "hubridaa4b",
+            "id": "2"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "type": "endpoint",
+            "appId": "007dcb0e-9fab-47b0-aa51-99f8ac36cc6f",
+            "appPassword": "JN*Z9EfMzG@*5(Tr#i|}Kgs*",
+            "endpoint": "https://hubrid.azurewebsites.net/api/messages",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "type": "appInsights",
+            "instrumentationKey": "6d2c8db2-ae29-4def-9cd1-87676d2c57eb",
+            "applicationId": "c1bfa2a1-4f97-47a9-bdba-5a5fb2a07b26",
+            "apiKeys": {},
+            "tenantId": "eff7723b-53d9-4c7e-ba01-20e133873dd1",
+            "subscriptionId": "b540ee1c-1250-4349-b5f2-be0c5daf8e43",
+            "resourceGroup": "chatbot-demo",
+            "serviceName": "hubridmlw23w",
+            "id": "5"
+        },
+        {
+            "type": "luis",
+            "appId": "172561e3-9ab8-4a6c-9d7d-358bd05f3c70",
+            "authoringKey": "9db63b1907d6411db0e40e83035f6029",
+            "version": "0.1",
+            "region": "westus",
+            "name": "BasicBotLuisApplication",
+            "id": "6"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
